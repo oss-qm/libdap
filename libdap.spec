@@ -6,7 +6,7 @@ Release: 1%{?dist}
 License: LGPLv2+
 Group: Development/Libraries
 URL: http://www.opendap.org/
-Source0: http://www.opendap.org/pub/source/libdap-%{version}.tar.gz
+Source0: libdap-%{version}.tar.gz
 Requires: curl >= 7.19.0 libxml2 >= 2.7.0
 
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
