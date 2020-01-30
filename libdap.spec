@@ -44,6 +44,7 @@ use libdap.
 %setup -q
 
 %build
+autoreconf -fi
 %configure --disable-static --disable-dependency-tracking
 make %{?_smp_mflags}
 
