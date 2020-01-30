@@ -14,6 +14,7 @@ BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires: libcurl-devel >= 7.19.0
 BuildRequires: libxml2-devel >= 2.7.0
 BuildRequires: pkgconfig
+BuildRequires: bison
 
 # This package could be relocatable. In that case uncomment the following
 # line
