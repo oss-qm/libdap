@@ -8,6 +8,7 @@ Group: Development/Libraries
 URL: http://www.opendap.org/
 Source0: libdap-%{version}.tar.gz
 Requires: curl >= 7.19.0 libxml2 >= 2.7.0
+Requires: libuuid1
 
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
@@ -15,6 +16,7 @@ BuildRequires: libcurl-devel >= 7.19.0
 BuildRequires: libxml2-devel >= 2.7.0
 BuildRequires: pkgconfig
 BuildRequires: bison
+BuildRequires: libuuid-devel
 
 # This package could be relocatable. In that case uncomment the following
 # line
@@ -38,6 +40,7 @@ Requires: libxml2-devel >= 2.7.0
 Requires: pkgconfig
 # for the /usr/share/aclocal directory ownership
 Requires: automake
+Requires: libuuid-devel
 
 %description devel
 This package contains all the files needed to develop applications that
