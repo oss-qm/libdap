@@ -17,6 +17,9 @@ BuildRequires: libxml2-devel >= 2.7.0
 BuildRequires: pkgconfig
 BuildRequires: bison
 BuildRequires: libuuid-devel
+BuildRequires: autoconf
+BuildRequires: automake
+BuildRequires: libtool
 
 # This package could be relocatable. In that case uncomment the following
 # line
