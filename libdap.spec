@@ -15,7 +15,7 @@ BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires: libcurl-devel >= 7.19.0
 BuildRequires: libxml2-devel >= 2.7.0
 BuildRequires: pkgconfig
-BuildRequires: bison
+BuildRequires: bison >= 3.0.0
 BuildRequires: libuuid-devel
 BuildRequires: autoconf
 BuildRequires: automake
