@@ -21,6 +21,7 @@ BuildRequires: autoconf
 BuildRequires: automake
 BuildRequires: libtool
 BuildRequires: gcc-c++
+BuildRequires: flex
 
 # This package could be relocatable. In that case uncomment the following
 # line
