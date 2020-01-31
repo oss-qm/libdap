@@ -11,7 +11,8 @@ Requires: curl >= 7.19.0 libxml2 >= 2.7.0
 
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
-BuildRequires: curl-devel >= 7.19.0 libxml2-devel >= 2.7.0
+BuildRequires: libcurl-devel >= 7.19.0
+BuildRequires: libxml2-devel >= 2.7.0
 BuildRequires: pkgconfig
 
 # This package could be relocatable. In that case uncomment the following
@@ -31,7 +32,8 @@ copy of 'deflate' which was used to compress responses.
 Summary: Development and header files for libdap
 Group: Development/Libraries
 Requires: %{name} = %{version}-%{release}
-Requires: curl-devel >= 7.19.0 libxml2-devel >= 2.7.0
+Requires: libcurl-devel >= 7.19.0
+Requires: libxml2-devel >= 2.7.0
 Requires: pkgconfig
 # for the /usr/share/aclocal directory ownership
 Requires: automake
