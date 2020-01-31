@@ -20,6 +20,7 @@ BuildRequires: libuuid-devel
 BuildRequires: autoconf
 BuildRequires: automake
 BuildRequires: libtool
+BuildRequires: gcc-c++
 
 # This package could be relocatable. In that case uncomment the following
 # line
